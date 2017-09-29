@@ -14,8 +14,8 @@ struct Node *insertOrdered(struct Node* head, int data){
    
    if(head== NULL){ // list is empty
 	head= malloc(sizeof(struct Node)); //create new node
-	(*start).data=data; //make new node head of LL 
-	(*start).next=NULL; //head node points to NULL
+	(*head).data=data; //make new node head of LL 
+	(*head).next=NULL; //head node points to NULL
      
 	}else if
 	   (data < (*start).data){ //value of new node is less than head node
